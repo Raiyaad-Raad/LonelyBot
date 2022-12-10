@@ -8,7 +8,7 @@ const dotenv = require('dotenv').config()
 
 client.once(main.Events.ClientReady, c => {
     console.log('Online')
-    client.user.setAvatar('https://discord.com/channels/@me/1020198624694652928/1051033823489572894');
+    client.user.setAvatar('https://cdn.discordapp.com/attachments/1020198624694652928/1051034077060411412/Screenshot_2022-12-10-13-14-01-26_40deb401b9ffe8e1df2f1cc5ba480b12.jpg');
 })
 
 client.login(process.env.token);
